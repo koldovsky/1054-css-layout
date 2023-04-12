@@ -16,12 +16,12 @@
     flex-direction: column;
 }
 
-.header-nav__menu-item {
+.header-nav__menu a {
     color: var(--main-color);
     text-decoration: none;
 }
 
-.header-nav__menu-item:hover {
+.header-nav__menu a:hover {
     text-decoration: underline;
 }
 
@@ -31,21 +31,21 @@
     }
 
     .header-nav__menu {
-        flex: 1;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        flex: 1;
     }
 }
 
 .header-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/baby-yoda.svg);
+    background: linear-gradient( rgba(0,0,0,0.5),  rgba(0,0,0,0.5) ), url(../img/baby-yoda.svg);
     background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    background-position: 50% 50%;
+    min-height: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 

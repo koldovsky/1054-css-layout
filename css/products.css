@@ -4,8 +4,8 @@
 }
 
 .product-card img {
+    width: 70%;
     margin: auto;
-    width: 90%;
 }
 
 @media (min-width: 600px) {
@@ -15,6 +15,7 @@
         gap: 5px;
     }
 }
+
 
 @media (min-width: 900px) {
     .products__list {
