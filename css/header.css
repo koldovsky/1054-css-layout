@@ -1,14 +1,14 @@
 .header {
-    background-color: var(--accent-color);
     padding: 5px;
+    background-color: var(--accent-color);
 }
 
 .header__title,
 .header__logo {
     font-size: 3.5rem;
     font-weight: bold;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .header__menu {
@@ -17,8 +17,8 @@
 }
 
 .header__menu .menu__item {
+    color: var(--main-text-color);
     text-decoration: none;
-    color: var(----main-text-color);
 }
 
 .header__menu .menu__item:hover {
@@ -32,22 +32,24 @@
     }
 
     .header__menu {
-        flex-direction: row;
         align-items: center;
-        justify-content: space-around;
         flex: 1;
+        flex-direction: row;
+        justify-content: space-around;
     }
-
 }
 
 .header__banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url('../img/baby-yoda.svg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                 url(../img/baby-yoda.svg);
     min-height: 500px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 50%; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
 }
+

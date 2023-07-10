@@ -1,6 +1,6 @@
-*,
-*::before,
-*::after {
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,16 +12,15 @@
     --button-background-color: white;
     --button-border-color: black;
     font-family: 'DotGothic16', sans-serif;
-    scroll-behavior: smooth;
+    color: var(--main-text-color);
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
 }
 
 img {
     display: block;
     width: 100%;
 }
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
